@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    width: 300px;
+    height: auto;
+    border: 1px solid #cccc;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+}
+form{
+    padding: 20px 18px;
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    outline: none;
+    padding-left: 30px;
+    border: 1px solid #cccc;
+    border-radius: 5px;
+    padding:7px 0px 7px 30px;
+}
+.user_icon{
+position:absolute;
+top: 6px;
+left: 8px;
+
+}
+.input-box h5{
+    font-size: 14px;
+}
+.input-field{
+    position:relative;
+}
+.forgot_password{
+text-align: right;
+margin-top: 10px;
+font-size: small;
+}
+.sign_up_link{
+    margin-top: 15px;
+    font-size: small;
+    text-align: center;
+    text-transform:uppercase
+}
+
+
